@@ -1,0 +1,38 @@
+<main class="container form-signin">
+    <h3 class="m-5">Add Customer</h3>
+    <div class="card m-5">
+        <form class="needs-validation p-5" novalidate>
+
+            <div class="mb-3">
+            <label for="username">Name</label>
+            <div class="input-group">
+                <input type="text" class="form-control" id="username" placeholder="eg. Samon" required>
+                <div class="invalid-feedback" style="width: 100%;">
+                Your username is required.
+                </div>
+            </div>
+            </div>
+
+            <div class="mb-3">
+            <label for="phone">Phone</label>
+            <input type="text" class="form-control" id="phone" placeholder="eg. 018193743978">
+            <div class="invalid-feedback">
+                Please enter a valid email address for shipping updates.
+            </div>
+            </div>
+
+            <div class="mb-3">
+            <label for="address">Address</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="2" placeholder="eg. Wari, Dhaka - 1000"></textarea>
+            <div class="invalid-feedback">
+                Please enter your shipping address.
+            </div>
+            </div>
+        
+            <div class="d-flex justify-content-end">
+                <button class="btn btn-primary" type="submit">Add Customer</button>
+            </div>
+           
+        </form>
+    </div>
+</main>  
