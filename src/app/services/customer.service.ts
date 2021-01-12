@@ -9,6 +9,7 @@ import { Observable } from 'rxjs';
 })
 export class CustomerService {
 
+  selectedCustomer: Customer;
   customer: Customer[];
   readonly baseURL = 'http://localhost:3000/customers';
 
@@ -25,6 +26,8 @@ export class CustomerService {
   
   postCustomer(customer: Customer): Observable<Customer[]>{
      return this.http.post<Customer[]>(this.baseURL, customer);
+     console.log(customer);
+     
   }
 
   putCustomer(customer: Customer): Observable<Customer[]>{
