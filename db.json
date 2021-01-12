@@ -1,0 +1,19 @@
+{
+  "customers": [
+    {
+      "id": "1233425435fvbbvgbn",
+      "name": "Samon",
+      "phone": "01752064125",
+      "address": "Wari, Dhaka - 1000",
+      "order": "567ASDFR12345"
+    },
+    {
+      "id": "1237725435fvbbvgbn",
+      "name": "Emon",
+      "phone": "01752064125",
+      "address": "Wari, Dhaka - 1000",
+      "order": "567ASDFR12344"
+    }
+    
+  ]
+}

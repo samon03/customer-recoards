@@ -10,7 +10,7 @@ import { Observable } from 'rxjs';
 export class CustomerService {
 
   customer: Customer[];
-  readonly baseURL = 'http://localhost:3000/customer';
+  readonly baseURL = 'http://localhost:3000/customers';
 
   constructor(private http: HttpClient) { }
 
