@@ -1,0 +1,10 @@
+.footer {
+    font-size: 18px;
+    font-weight: 500;
+    color: gray;
+
+    text-align: center;
+    position: sticky;
+    height: 100px;
+    top: calc( 100vh - 100px );
+}
