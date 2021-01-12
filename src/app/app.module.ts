@@ -9,6 +9,8 @@ import { AddCustomerComponent } from './add-customer/add-customer.component';
 
 import { AppRoutingModule } from './app-routing/app-routing.module';
 
+import { HttpClientModule } from '@angular/common/http';
+
 
 @NgModule({
   declarations: [
@@ -20,7 +22,8 @@ import { AppRoutingModule } from './app-routing/app-routing.module';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
