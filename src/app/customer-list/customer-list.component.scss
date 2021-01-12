@@ -3,6 +3,10 @@
   width: 40%;
 }
 
+.form-control {
+  border: 1px solid #0d6efd;
+}
+
 
 @media only screen and (max-width: 600px) { 
     .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
