@@ -7,6 +7,9 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { FooterComponent } from './footer/footer.component';
 import { AddCustomerComponent } from './add-customer/add-customer.component';
 
+import { AppRoutingModule } from './app-routing/app-routing.module';
+
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -16,7 +19,8 @@ import { AddCustomerComponent } from './add-customer/add-customer.component';
     AddCustomerComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
